@@ -11,6 +11,8 @@ import {
 import Home from './features/Pages/Home';
 import LoginPage from './features/Pages/LoginPage';
 import SignupPage from './features/Pages/SignupPage';
+import Cart from './features/cart/Cart';
+import CartPage from './features/Pages/CartPage';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <SignupPage/>,
+  },
+  {
+    path: '/cart',
+    element: <CartPage/>,
   },
 ]);
 
