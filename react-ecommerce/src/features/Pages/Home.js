@@ -1,7 +1,7 @@
 // import ProductList from "../features/product-list/ProductList";
 
 import NavBar from "../Navbar/Navbar";
-import ProductList from "../product-list/ProductList";
+import ProductList from "../product-list/components/ProductList";
 
 function Home() {
   return (
